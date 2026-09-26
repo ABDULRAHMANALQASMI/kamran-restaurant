@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Kamran Mandi Restaurant placeholder logo</title>
+  <desc id="desc">Placeholder brand mark for future restaurant logo asset.</desc>
+  <rect width="240" height="240" rx="40" fill="#F4EDE7"/>
+  <circle cx="120" cy="120" r="82" fill="#E8D8C8" stroke="#7A4B2E" stroke-width="4"/>
+  <path d="M72 152c14-36 36-54 48-54s34 18 48 54" fill="none" stroke="#7A4B2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M96 132h48" stroke="#7A4B2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M120 78v20M98 98h44" stroke="#7A4B2E" stroke-width="6" stroke-linecap="round"/>
+  <text x="120" y="188" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#3B2C24" font-weight="700">KAMRAN</text>
+</svg>

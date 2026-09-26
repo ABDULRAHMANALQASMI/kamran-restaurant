@@ -1,0 +1,8 @@
+quoted asset paths in js/data files: 92
+missing references: 6
+  [missing] index.html [href] -> manifest.webp
+  [missing] index.html [href] -> assets/logo/kamran-favicon.svg
+  [missing] oman.html [href] -> manifest.webp
+  [missing] oman.html [href] -> assets/logo/kamran-favicon.svg
+  [missing] uae.html [href] -> manifest.webp
+  [missing] uae.html [href] -> assets/logo/kamran-favicon.svg

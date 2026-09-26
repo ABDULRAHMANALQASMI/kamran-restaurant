@@ -1,0 +1,137 @@
+﻿const normalizeSearchText = (value) => String(value || '')
+  .normalize('NFKC')
+  .toLocaleLowerCase()
+  .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+  .replace(/[Ø£Ø¥Ø¢Ù±]/g, 'Ø§')
+  .replace(/Ù‰/g, 'ÙŠ');
+
+const isPriceUnderReview = (item) => (
+  item.status === 'PRICE_REVIEW_REQUIRED'
+  || item.priceStatus === 'PRICE_REVIEW_REQUIRED'
+  || item.price === null
+  || item.price === undefined
+);
+
+const getCountryMenuData = (country) => {
+  if (!country) {
+    return [];
+  }
+
+  const key = `${country}MenuData`;
+  return Array.isArray(window[key]) ? window[key] : [];
+};
+
+const getCountryBranchData = (country) => {
+  if (!country) {
+    return [];
+  }
+
+  const key = `${country}BranchesData`;
+  return Array.isArray(window[key]) ? window[key] : [];
+};
+
+const renderMenuFilters = (items, activeCategory = 'all') => {
+  const filterContainer = document.getElementById('country-category-filters');
+  if (!filterContainer) {
+    return;
+  }
+
+  const language = getLanguage();
+  const labels = interfaceText[language];
+  filterContainer.setAttribute('aria-label', language === 'ar' ? 'ÙØ¦Ø§Øª Ø§Ù„Ù…Ù†ÙŠÙˆ' : 'Menu categories');
+  const categories = ['all', ...new Set(items.map((item) => item.category).filter(Boolean))];
+  filterContainer.innerHTML = categories
+    .map((category) => {
+      const label = category === 'all' ? labels.all : getCategoryLabel(category, language);
+      const activeClass = category === activeCategory ? 'is-active' : '';
+      return `<button class="filter-chip ${activeClass}" type="button" data-filter-category="${escapeHtml(category)}" aria-pressed="${category === activeCategory}">${escapeHtml(label)}</button>`;
+    })
+    .join('');
+};
+
+const renderMenuList = (country, selectedCategory = 'all', query = '') => {
+  const container = document.getElementById('country-menu-list');
+  if (!container) {
+    return;
+  }
+
+  const currency = country === 'oman' ? 'OMR' : 'AED';
+  const language = getLanguage();
+  const labels = interfaceText[language];
+  const countryItems = getCountryMenuData(country);
+  const items = countryItems.filter((item) => item.country === country && item.currency === currency);
+  const normalizedQuery = normalizeSearchText(query.trim());
+
+  const filteredItems = items.filter((item) => {
+    const matchesCategory = selectedCategory === 'all' || item.category === selectedCategory;
+    const haystack = normalizeSearchText([item.name_ar, item.name_en, item.description_ar, item.description_en, item.category]
+      .filter(Boolean)
+      .join(' '));
+    const matchesQuery = !normalizedQuery || haystack.includes(normalizedQuery);
+    return matchesCategory && matchesQuery;
+  });
+
+  renderMenuFilters(items, selectedCategory);
+
+  if (!filteredItems.length) {
+    container.innerHTML = `<div class="empty-state">${labels.noResults}</div>`;
+    return;
+  }
+
+  const groups = selectedCategory === 'all'
+    ? [...new Set(filteredItems.map((item) => item.category))]
+    : [selectedCategory];
+
+  container.innerHTML = groups.map((category) => {
+    const categoryItems = filteredItems.filter((item) => item.category === category);
+    return `
+      <section class="menu-category" aria-labelledby="menu-category-${escapeHtml(category)}">
+        <div class="menu-category-heading">
+          <h3 id="menu-category-${escapeHtml(category)}">${escapeHtml(getCategoryLabel(category, language))}</h3>
+          <span>${categoryItems.length}</span>
+        </div>
+        <div class="menu-category-grid">
+          ${categoryItems.map((item) => {
+            const arabicName = safeText(item.name_ar, '');
+            const englishName = safeText(item.name_en, '');
+            const primaryName = language === 'ar' ? arabicName || englishName : englishName || arabicName;
+            const secondaryName = language === 'ar' ? (englishName && englishName !== primaryName ? englishName : '') : (arabicName && arabicName !== primaryName ? arabicName : '');
+            const description = safeText(language === 'ar' ? item.description_ar : item.description_en, '');
+            const reviewText = labels.review;
+            const priceReview = isPriceUnderReview(item);
+            const priceText = priceReview ? labels.priceReview : formatItemPrice(item, language);
+            const image = typeof item.image === 'string' && item.image ? item.image : '';
+            const imageMarkup = image
+              ? `<img class="menu-card-image" src="${escapeHtml(image)}" alt="${escapeHtml(primaryName)}" loading="lazy" decoding="async" />`
+              : '';
+            const serving = safeText(language === 'ar' ? item.servings_ar : item.servings_en, '');
+            const translationReview = language === 'en' && item.translationStatus === 'TRANSLATION_REVIEW_REQUIRED';
+            const statusText = translationReview ? labels.translationReview : reviewText;
+            const statusMarkup = item.status === 'verified' && !translationReview
+              ? ''
+              : `<span class="status-pill review">${statusText}</span>`;
+            return `
+              <article class="menu-card" data-menu-item="${escapeHtml(item.id)}">
+                <button class="menu-card-trigger" type="button" data-menu-id="${escapeHtml(item.id)}" aria-label="${escapeHtml(labels.details)}: ${escapeHtml(primaryName || labels.sourceReview)}">
+                  ${imageMarkup}
+                  <div class="menu-card-inner">
+                    <div class="menu-card-top"><span class="category-badge">${escapeHtml(getCategoryLabel(category, language))}</span>${statusMarkup}</div>
+                    <h4>${escapeHtml(primaryName || labels.sourceReview)}</h4>
+                    ${secondaryName ? `<p class="menu-card-secondary" lang="${language === 'ar' ? 'en' : 'ar'}">${escapeHtml(secondaryName)}</p>` : ''}
+                    ${description ? `<p class="menu-card-description">${escapeHtml(description)}</p>` : ''}
+                    ${serving ? `<p class="menu-card-serving">${escapeHtml(serving)}</p>` : ''}
+                    <div class="price-row"><span class="price-tag ${priceReview ? 'price-review' : ''}">${escapeHtml(priceText)}</span></div>
+                  </div>
+                </button>
+              </article>
+            `;
+          }).join('')}
+        </div>
+      </section>
+    `;
+  }).join('');
+
+  container.querySelectorAll('[data-menu-id]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const selectedItem = filteredItems.find((item) => item.id === button.dataset.menuId);
+      if (selectedItem) {

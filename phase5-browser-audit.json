@@ -1,0 +1,34 @@
+{
+  "tool": "Integrated browser Playwright",
+  "testedAt": "2026-09-26",
+  "routes": ["index.html", "oman.html", "uae.html"],
+  "viewportWidths": [320, 375, 390, 414, 768, 1024, 1280, 1440, 1920],
+  "viewportChecks": 30,
+  "horizontalOverflowCases": 0,
+  "consoleErrors": 0,
+  "failedRequests": 0,
+  "brokenPageImages": 0,
+  "menuItemCounts": {
+    "oman": 114,
+    "uae": 72
+  },
+  "englishMode": {
+    "destinationCardTextTranslated": true,
+    "rtlLtrDirectionSwitch": true,
+    "omanMultiPrice": "1.000 OMR / 1.200 OMR",
+    "uaeFeastPrice": "1,600 AED"
+  },
+  "interactions": {
+    "arabicMenuSearchResults": 2,
+    "categoryFilter": true,
+    "modalOpensByKeyboard": true,
+    "modalReceivesFocus": true,
+    "escapeClosesModal": true,
+    "focusReturnsToTrigger": true,
+    "mobileNavigationOpensAndCloses": true
+  },
+  "menuPhotoCoverage": {
+    "availableImages": 0,
+    "missingImages": 186
+  }
+}

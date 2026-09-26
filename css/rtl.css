@@ -1,0 +1,30 @@
+/*
+  RTL support for Arabic content
+  Future language-specific styling and typography adjustments can be added here.
+*/
+
+html[lang="ar"] body,
+body[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="en"] body,
+body[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+html[lang="ar"] .brand,
+html[lang="ar"] .main-nav,
+html[lang="ar"] .country-card-header,
+html[lang="ar"] .footer-inner {
+  direction: rtl;
+}
+
+html[lang="en"] .brand,
+html[lang="en"] .main-nav,
+html[lang="en"] .country-card-header,
+html[lang="en"] .footer-inner {
+  direction: ltr;
+}

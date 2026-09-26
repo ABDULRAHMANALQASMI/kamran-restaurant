@@ -1,0 +1,188 @@
+### oman (114 items)
+chicken        oman-chicken-grilled               دجاج مشوي | Grilled Chicken | chicken/grilled-chicken-saffron-rice.webp | representative
+chicken        oman-chicken-tanoor                دجاج تنور عماني | Omani Tanoor Chicken | chicken/charcoal-grilled-chicken.webp | representative
+chicken        oman-chicken-mandi                 دجاج مندي | Chicken Mandi | HERO:mandi-chicken-rice.webp | representative
+chicken        oman-chicken-madfoon               دجاج مدفون | Chicken Madfoon | chicken/chicken-spiced-rice.webp | representative
+chicken        oman-chicken-mazbi                 دجاج مظبي | Chicken Mazbi | chicken/charcoal-grilled-chicken.webp | representative
+chicken        oman-chicken-zurbian               دجاج زربيان | Chicken Zurbian | chicken/chicken-zurbian-style-rice.webp | representative
+chicken        oman-chicken-meqalqal              دجاج مقلقل | Chicken Meqalqal | chicken/chicken-zurbian-style-rice.webp | representative
+chicken        oman-chicken-ogda                  دجاج عقدة | Chicken Ogda | chicken/chicken-stew.webp | representative
+chicken        oman-chicken-tray-3                صينية دجاج (3 أشخاص) | Chicken Tray (3 Persons) | chicken/chicken-mandi-tray.webp | representative
+chicken        oman-chicken-tray-5                صينية دجاج (5 أشخاص) | Chicken Tray (5 Persons) | chicken/chicken-mandi-tray.webp | representative
+chicken        oman-chicken-tray-7                صينية دجاج (7 أشخاص) | Chicken Tray (7 Persons) | chicken/chicken-mandi-tray.webp | representative
+chicken        oman-chicken-tray-10               صينية دجاج (10 أشخاص) | Chicken Tray (10 Persons) | chicken/chicken-mandi-tray.webp | representative
+chicken        oman-chicken-without-rice          دجاج بدون أرز | Chicken without Rice | chicken/charcoal-grilled-chicken.webp | representative
+chicken        oman-chicken-tray-fresh-service    صينية دجاج طازج مع الخدمة والكركديه | Fresh Chicken Tray Served with Service & Karkadeh | chicken/chicken-mandi-tray.webp | representative
+meat           oman-meat-mandi                    لحم مندي | Meat Mandi | meat/lamb-mandi.webp | representative
+meat           oman-meat-maqmood                  لحم مكمود | Meat Maqmood | meat/lamb-shank-rice.webp | representative
+meat           oman-meat-tanoor                   لحم تنور عماني | Omani Tanoor Meat | meat/lamb-pilaf.webp | representative
+meat           oman-meat-madfoon                  لحم مدفون | Meat Madfoon | meat/diced-meat-skillet.webp | representative
+meat           oman-meat-zurbian                  لحم زربيان | Meat Zurbian | meat/lamb-shank-rice.webp | representative
+meat           oman-meat-ogda                     لحم عقدة | Meat Ogda | meat/family-lamb-tray.webp | representative
+meat           oman-meat-meqalqal                 لحم مقلقل | Meat Meqalqal | meat/diced-meat-skillet.webp | representative
+meat           oman-meat-tray-4                   صينية لحم (4 أشخاص) | Meat Tray (4 Persons) | meat/family-lamb-tray.webp | representative
+meat           oman-meat-tray-4-service           صينية لحم (4 أشخاص) مع سلطة وخدمة وكركديه | Meat Tray (4 Persons) with Salad, Service & Karkadeh | meat/family-lamb-tray.webp | representative
+meat           oman-meat-without-rice             لحم بدون أرز | Meat without Rice | meat/lamb-mandi.webp | representative
+seafood        oman-seafood-supreme               سوبريم مشوي طازج | Fresh Grilled Supreme | seafood/grilled-fish-platter.webp | representative
+seafood        oman-seafood-salmon                سلمون مشوي طازج | Fresh Grilled Salmon | seafood/grilled-salmon.webp | representative
+seafood        oman-seafood-kingfish              كنعد مشوي طازج | Fresh Grilled Kingfish | seafood/grilled-fish.webp | representative
+seafood        oman-seafood-shrimp-grilled        روبيان مشوي طازج | Fresh Grilled Shrimp | seafood/grilled-shrimp-rice.webp | representative
+seafood        oman-seafood-shrimp-tafaya         طفاية روبيان طازج | Fresh Shrimp Tafaya | seafood/shrimp-tomato-sauce.webp | representative
+seafood        oman-seafood-kingfish-tafaya       طفاية كنعد طازج | Fresh Kingfish Tafaya | seafood/fish-saydia-rice.webp | representative
+seafood        oman-seafood-squid-nghar           طفاية حبار (نغر) | Squid (Nghar) Tafaya | seafood/squid-stew-rice.webp | representative
+seafood        oman-seafood-tuna-jaydaz           تونة طازجة (جيداز) | Fresh Tuna (Jaydaz) | seafood/fresh-tuna.webp | representative
+seafood        oman-seafood-platter-4             صحن مأكولات بحرية مشكلة (4 أشخاص) | Mixed Seafood Platter (4 Persons) | seafood/mixed-seafood-platter.webp | representative
+seafood        oman-seafood-platter-sides-hibiscus صحن مأكولات بحرية مشكلة مع الإضافات والكركديه | Mixed Seafood Platter with Sides & Hibiscus | seafood/mixed-seafood-platter.webp | representative
+salads         oman-salad-fatoush                 فتوش | Fatoush | salads/fattoush.webp | representative
+salads         oman-salad-arabic                  سلطة عربية | Arabic Salad | salads/arabic-salad-vegetables.webp | representative
+salads         oman-salad-roca                    سلطة روكا | Roca Salad | salads/cucumber-yogurt.webp | representative
+salads         oman-salad-tabbouleh               تبولة | Tabbouleh | salads/tabbouleh.webp | representative
+salads         oman-salad-greek                   سلطة يونانية | Greek Salad | salads/greek-salad.webp | representative
+salads         oman-salad-yoghurt-cucumber        روب بالخيار | Yoghurt with Cucumber | salads/cucumber-yogurt.webp | representative
+salads         oman-salad-cheese-sahaweq          سحاوق بالجبن | Cheese Sahaweq | salads/greek-salad.webp | representative
+salads         oman-salad-basbas                  بسباس | Basbas | salads/arabic-salad-vegetables.webp | representative
+salads         oman-salad-green-service           خدمة خضراء | Green Service | salads/greek-salad.webp | representative
+rice_bread     oman-rice-mandi                    أرز مندي | Mandi Rice | rice/mandi-rice.webp | representative
+rice_bread     oman-rice-zurbian                  أرز زربيان | Zurbian Rice | rice/zurbian-rice.webp | representative
+rice_bread     oman-rice-bukhari                  أرز بخاري | Bukhari Rice | rice/bukhari-rice.webp | representative
+rice_bread     oman-rice-peshawari                أرز بشاور | Peshawari Rice | rice/peshawari-rice.webp | representative
+rice_bread     oman-bread-malwah                  خبز ملوح | Malwah Bread | bread/malawah-flatbread.webp | representative
+rice_bread     oman-bread-rashoosh                خبز رشوش | Rashoosh Bread | bread/traditional-pan-flatbread.webp | representative
+rice_bread     oman-bread-wet                     خبز رطب | Wet Bread | rice/peshawari-rice.webp | representative
+rice_bread     oman-extra-fried-onions            بصل مقلي | Fried Onions | bread/malawah-flatbread.webp | representative
+rice_bread     oman-extra-yemeni-honey            عسل يمني | Yemeni Honey | rice/bukhari-rice.webp | representative
+rice_bread     oman-extra-plain-yoghurt           زبادي سادة | Plain Yoghurt | rice/mandi-rice.webp | representative
+rice_bread     oman-extra-helba                   حلبة | Helba | rice/peshawari-rice.webp | representative
+rice_bread     oman-extra-nuts                    مكسرات | Nuts | rice/zurbian-rice.webp | representative
+rice_bread     oman-extra-soup                    شوربة | Soup | bread/malawah-flatbread.webp | representative
+rice_bread     oman-extra-tray-fee                رسوم الصينية | Tray Fee | bread/malawah-flatbread.webp | representative
+rice_bread     oman-extra-tray-fee-vip            رسوم الصينية VIP | Tray Fee VIP | rice/mandi-rice.webp | representative
+qalabat        oman-qalabat-meat-ogda             عقدة لحم | Meat Ogda | qalabat/shakshuka.webp | representative
+qalabat        oman-qalabat-saltah                سلتة | Saltah | qalabat/fava-beans-foul.webp | representative
+qalabat        oman-qalabat-fahsa                 فحسة | Fahsa | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-yemeni-foul           فول يمني | Yemeni Foul | qalabat/fava-beans-foul.webp | representative
+qalabat        oman-qalabat-foul-egg              فول بالبيض | Foul with Egg | qalabat/fava-beans-foul.webp | representative
+qalabat        oman-qalabat-red-beans             فاصوليا حمراء | Red Beans | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-beans-egg             فاصوليا بالبيض | Beans with Egg | qalabat/shakshuka.webp | representative
+qalabat        oman-qalabat-beans-tuna            فاصوليا بالتونة | Beans with Tuna | qalabat/fava-beans-foul.webp | representative
+qalabat        oman-qalabat-tuna                  تونة | Tuna | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-tuna-cheese           تونة بالجبن | Tuna with Cheese | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-fresh-liver           كبدة طازجة | Fresh Liver | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-liver-cheese          كبدة بالجبن | Liver with Cheese | qalabat/shakshuka.webp | representative
+qalabat        oman-qalabat-shakshuka-egg         شكشوكة بالبيض | Shakshuka with Egg | qalabat/shakshuka.webp | representative
+qalabat        oman-qalabat-fried-egg             بيض مقلي | Fried Egg | qalabat/fava-beans-foul.webp | representative
+qalabat        oman-qalabat-salona                يخنة خضار (صالونة) | Vegetable Stew (Salona) | qalabat/middle-eastern-liver.webp | representative
+qalabat        oman-qalabat-fries                 بطاطس مقلية | French Fries | qalabat/shakshuka.webp | representative
+feasts         oman-feast-omani-dabiha            ذبيحة عمانية كاملة | Full Omani Dabiha | seafood/mixed-seafood-platter.webp | representative
+feasts         oman-feast-whole-goat              تيس طازج كامل | Full Fresh Goat | chicken/chicken-mandi-tray.webp | representative
+feasts         oman-feast-whole-lamb              خروف طازج كامل | Full Fresh Lamb | chicken/chicken-mandi-tray.webp | representative
+feasts         oman-feast-half-goat               نصف تيس طازج | Half Fresh Goat | chicken/chicken-mandi-tray.webp | representative
+feasts         oman-feast-quarter-goat            ربع تيس طازج | Quarter Fresh Goat | seafood/mixed-seafood-platter.webp | representative
+ramadan        oman-ramadan-meal                  وجبة رمضان | Ramadan Meal | rice/mandi-rice.webp | representative
+ramadan        oman-ramadan-harees-small          هريس صغير | Harees Small | meat/lamb-mandi.webp | representative
+ramadan        oman-ramadan-harees-medium         هريس وسط | Harees Medium | rice/mandi-rice.webp | representative
+ramadan        oman-ramadan-harees-large          هريس كبير | Harees Large | chicken/chicken-mandi-tray.webp | representative
+ramadan        oman-ramadan-samboosa              سمبوسة | Samboosa | rice/mandi-rice.webp | representative
+ramadan        oman-ramadan-qasabiya              قصابية | Qasabiya | chicken/chicken-mandi-tray.webp | representative
+ramadan        oman-ramadan-mishkak               مشكاك | Mishkak | chicken/chicken-mandi-tray.webp | representative
+desserts       oman-dessert-dates-fattah          فتة تمر | Dates Fattah | desserts/date-filled-bread-dessert.webp | representative
+desserts       oman-dessert-banana-fattah         فتة موز | Banana Fattah | desserts/banana-dessert.webp | representative
+desserts       oman-dessert-arika                 عريكة | Arika | desserts/date-filled-bread-dessert.webp | representative
+desserts       oman-dessert-masooba-honey         معصوبة بالعسل | Masooba with Honey | desserts/date-filled-bread-dessert.webp | representative
+desserts       oman-dessert-kunafa-cream          كنافة بالقشطة | Kunafa (Cream) | desserts/kunafa.webp | representative
+cold_beverages oman-cold-water                    مياه معدنية | Mineral Water | drinks/mineral-water.webp | representative
+cold_beverages oman-cold-kinza                    كينزا | Kinza Soft Drink | drinks/avocado-juice.webp | representative
+cold_beverages oman-cold-pepsi                    بيبسي | Pepsi | drinks/fresh-orange-juice.webp | representative
+cold_beverages oman-cold-pepsi-diet               بيبسي دايت | Pepsi Diet | drinks/ayran.webp | representative
+cold_beverages oman-cold-fanta                    فانتا | Fanta | drinks/hibiscus-juice.webp | representative
+cold_beverages oman-cold-mountain-dew             ماونتن ديو | Mountain Dew | drinks/lemon-mint-drink.webp | representative
+cold_beverages oman-cold-coca-cola                كوكاكولا | Coca Cola | drinks/nonalcoholic-mojito.webp | representative
+cold_beverages oman-cold-coca-cola-zero           كوكاكولا زيرو | Coca Cola Zero | drinks/hibiscus-juice.webp | representative
+cold_beverages oman-cold-sprite                   سبرايت | Sprite | drinks/fresh-mango-juice.webp | representative
+cold_beverages oman-cold-7up                      سفن أب | 7up | drinks/fresh-orange-juice.webp | representative
+cold_beverages oman-cold-hibiscus                 عصير كركديه | Hibiscus Juice | drinks/hibiscus-juice.webp | representative
+cold_beverages oman-cold-laban-ayran              لبن عيران | Laban Ayran | drinks/ayran.webp | representative
+cold_beverages oman-cold-orange                   عصير برتقال طازج | Fresh Orange Juice | drinks/fresh-orange-juice.webp | representative
+cold_beverages oman-cold-mango                    عصير مانجو طازج | Fresh Mango Juice | drinks/fresh-mango-juice.webp | representative
+cold_beverages oman-cold-pomegranate              عصير رمان طازج | Fresh Pomegranate Juice | drinks/pomegranate-juice.webp | representative
+cold_beverages oman-cold-lemon-mint               ليمون بالنعناع الطازج | Fresh Lemon Mint | drinks/lemon-mint-drink.webp | representative
+cold_beverages oman-cold-lemon                    عصير ليمون طازج | Fresh Lemon Juice | drinks/pomegranate-juice.webp | representative
+cold_beverages oman-cold-passion-mojito           موهيتو باشن فروت | Passion Fruit Mojito | drinks/avocado-juice.webp | representative
+cold_beverages oman-cold-strawberry-mojito        موهيتو فراولة | Strawberry Mojito | drinks/mineral-water.webp | representative
+hot_drinks     oman-hot-adani-tea-dallah          دلة شاي عدني | Adani Tea Dallah | drinks/karak-tea.webp | representative
+hot_drinks     oman-hot-arabic-coffee-dallah      دلة قهوة عربية | Arabic Coffee Dallah | drinks/arabic-coffee-dallah.webp | representative
+hot_drinks     oman-hot-green-tea                 شاي أخضر | Green Tea | drinks/arabic-coffee-dallah.webp | representative
+hot_drinks     oman-hot-karak-tea                 شاي كرك | Karak Tea | drinks/karak-tea.webp | representative
+### uae (72 items)
+drinks         uae-drinks-water                   مياه معدنية | Mineral Water | drinks/mineral-water.webp | representative
+drinks         uae-drinks-soft-drinks             مشروبات غازية | Soft Drinks | drinks/arabic-coffee-dallah.webp | representative
+drinks         uae-drinks-juice-bottles           تشكيلة عصائر معلبة | Assorted Juice Bottles | drinks/arabic-coffee-dallah.webp | representative
+drinks         uae-drinks-labneh-ayran            لبن عيران | Labneh Ayran | drinks/ayran.webp | representative
+drinks         uae-drinks-orange-juice            عصير برتقال طازج | Fresh Orange Juice | drinks/fresh-orange-juice.webp | representative
+drinks         uae-drinks-pomegranate-juice       عصير رمان طازج | Fresh Pomegranate Juice | drinks/pomegranate-juice.webp | representative
+drinks         uae-drinks-lemonade                ليموناضة طازجة | Fresh Lemonade | drinks/hibiscus-juice.webp | representative
+drinks         uae-drinks-avocado-juice           عصير أفوكادو | Avocado Juice | drinks/avocado-juice.webp | representative
+drinks         uae-drinks-lemon-mint              ليمون بالنعناع الطازج | Fresh Lemon Mint | drinks/lemon-mint-drink.webp | representative
+drinks         uae-drinks-mojito                  موهيتو | Mojito | drinks/nonalcoholic-mojito.webp | representative
+drinks         uae-drinks-dallah-tea              دلة شاي | Dallah Tea | drinks/ayran.webp | representative
+drinks         uae-drinks-dallah-coffee           دلة قهوة | Dallah Coffee | drinks/arabic-coffee-dallah.webp | representative
+drinks         uae-drinks-turkish-coffee          قهوة تركية | Turkish Coffee | drinks/fresh-mango-juice.webp | representative
+drinks         uae-drinks-karak-tea               شاي كرك | Karak Tea | drinks/karak-tea.webp | representative
+salads         uae-salad-fatoush                  فتوش | Fatoush | salads/fattoush.webp | representative
+salads         uae-salad-roca                     سلطة روكا | Roca Salad | salads/cucumber-yogurt.webp | representative
+salads         uae-salad-arabic                   سلطة عربية | Arabic Salad | salads/arabic-salad-vegetables.webp | representative
+salads         uae-salad-tabbouleh                تبولة | Tabbouleh | salads/tabbouleh.webp | representative
+salads         uae-salad-cheese-sahaweq           سحاوق بالجبن | Cheese Sahaweq | salads/greek-salad.webp | representative
+salads         uae-salad-yemeni-ashar             عشار يمني | Yemeni Ashar | salads/tabbouleh.webp | representative
+salads         uae-salad-yoghurt-cucumber         زبادي بالخيار | Yoghurt Cucumber | salads/cucumber-yogurt.webp | representative
+fish           uae-fish-supreme                   سمك سوبريم طازج | Fresh Supreme Fish | seafood/grilled-fish.webp | representative
+fish           uae-fish-salmon                    سمك سلمون طازج | Fresh Salmon Fish | seafood/grilled-salmon.webp | representative
+fish           uae-fish-kingfish-grilled          كنعد مشوي طازج | Fresh Grilled Kingfish | seafood/grilled-fish.webp | representative
+fish           uae-fish-shrimp-grilled            روبيان مشوي | Grilled Shrimp | seafood/grilled-shrimp-rice.webp | representative
+fish           uae-fish-saydia                    صيادية السمك | Fish Saydia | seafood/fish-saydia-rice.webp | representative
+fish           uae-fish-farsh                     سمك فرش طازج | Fresh Farsh Fish | seafood/grilled-fish-platter.webp | representative
+fish           uae-fish-shrimp-tafaya             طفاية روبيان | Tafaya Shrimp | seafood/shrimp-tomato-sauce.webp | representative
+fish           uae-fish-kanad-tafaya              طفاية كنعد | Tafaya Kanad | seafood/grilled-salmon.webp | representative
+chicken        uae-chicken-mazbi                  دجاج مظبي طازج | Chicken Mazbi Fresh | chicken/charcoal-grilled-chicken.webp | representative
+chicken        uae-chicken-zurbian                دجاج زربيان طازج | Chicken Zurbian Fresh | chicken/chicken-zurbian-style-rice.webp | representative
+chicken        uae-chicken-mandi                  مندي دجاج | Mandi Chicken | HERO:mandi-chicken-rice.webp | representative
+chicken        uae-chicken-madfoon                مدفون دجاج | Madfoon Chicken | chicken/chicken-spiced-rice.webp | representative
+chicken        uae-chicken-omani-grill            دجاج مشوي عماني | Chicken Grill Omani | chicken/grilled-chicken-saffron-rice.webp | representative
+meat           uae-meat-mutton-mandi-local        لحم مندي محلي | Mutton Mandi Local | meat/lamb-mandi.webp | representative
+meat           uae-meat-mutton-madfoon            مدفون لحم | Mutton Madfoon | meat/lamb-shank-rice.webp | representative
+meat           uae-meat-mutton-maqmood            مكمود لحم | Mutton Maqmood | meat/lamb-pilaf.webp | representative
+meat           uae-meat-mutton-zurbian            لحم زربيان | Mutton Zurbian | meat/family-lamb-tray.webp | representative
+meat           uae-meat-omani-grill-local-mutton  لحم غنم محلي مشوي عماني | Omani Grill Local Mutton | meat/lamb-mandi.webp | representative
+qalabat        uae-qalabat-fahsa                  فحسة | Fahsa | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-saltah                 سلتة | Saltah | qalabat/fava-beans-foul.webp | representative
+qalabat        uae-qalabat-lahsa                  لحسة | Lahsa | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-shakshuka              شكشوكة | Shakshuka | qalabat/shakshuka.webp | representative
+qalabat        uae-qalabat-fried-eggs             بيض مقلي | Fried Eggs | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-foul                   فول | Foul | qalabat/fava-beans-foul.webp | representative
+qalabat        uae-qalabat-foul-egg               فول بالبيض | Foul with Egg | qalabat/fava-beans-foul.webp | representative
+qalabat        uae-qalabat-red-beans-egg          فاصوليا حمراء بالبيض | Red Beans with Egg | qalabat/shakshuka.webp | representative
+qalabat        uae-qalabat-lahm-nashif            لحم ناشف | Lahm Nashif | qalabat/fava-beans-foul.webp | representative
+qalabat        uae-qalabat-chicken-nashif         دجاج ناشف | Chicken Nashif | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-meqalqal-mutton        مقلقل لحم غنم | Meqalqal Mutton | qalabat/fava-beans-foul.webp | representative
+qalabat        uae-qalabat-meqalqal-chicken       مقلقل دجاج | Meqalqal Chicken | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-green-beans            فاصوليا خضراء | Green Beans | qalabat/shakshuka.webp | representative
+qalabat        uae-qalabat-green-beans-tuna       فاصوليا خضراء بالتونة | Green Beans with Tuna | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-tuna                   تونة | Tuna | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-tuna-cheese            تونة بالجبن | Tuna with Cheese | qalabat/middle-eastern-liver.webp | representative
+qalabat        uae-qalabat-liver                  كبدة | Liver | qalabat/middle-eastern-liver.webp | representative
+extras         uae-extra-rice                     إضافة أي نوع من الأرز | Add Any Type of Rice | rice/bukhari-rice.webp | representative
+extras         uae-extra-fried-onions             بصل مقلي | Onions Fried | bread/malawah-flatbread.webp | representative
+extras         uae-extra-ashar-adni               عشار عدني | Ashar Adni | bread/traditional-pan-flatbread.webp | representative
+extras         uae-extra-sahwek                   سحاوق | Sahwek | rice/mandi-rice.webp | representative
+extras         uae-extra-basbas-sanpel-mix        بسباس (خلطة سنبل) | Basbas (Sanpel Mix) | rice/mandi-rice.webp | representative
+extras         uae-extra-honey                    عسل | Honey | rice/mandi-rice.webp | representative
+feasts         uae-feast-dabiha-naimi             ذبيحة نعيمي مع الأرز والسلطات | Dabiha Naimi with Rice and Salads | seafood/mixed-seafood-platter.webp | representative
+feasts         uae-feast-local-goat               تيس محلي مع الأرز والسلطات | Local Goat with Rice and Salads | seafood/mixed-seafood-platter.webp | representative
+feasts         uae-feast-cooking-lamb             طبخ لحم غنم مع الأرز والسلطات | Cooking Lamb with Rice and Salads | meat/family-lamb-tray.webp | representative
+feasts         uae-feast-cooking-local-goat       طبخ تيس محلي مع الأرز والسلطات | Cooking a Local Goat with Rice and Salads | chicken/chicken-mandi-tray.webp | representative
+desserts       uae-dessert-dates-fattah           فتة تمر | Dates Fattah | desserts/date-filled-bread-dessert.webp | representative
+desserts       uae-dessert-banana-fattah          فتة موز | Banana Fattah | desserts/banana-dessert.webp | representative
+desserts       uae-dessert-fattah-mix             فتة مشكلة | Fattah Mix | desserts/kunafa.webp | representative
+desserts       uae-dessert-arika                  عريكة | Arika | desserts/date-filled-bread-dessert.webp | representative
+desserts       uae-dessert-massouba-honey         معصوبة بالعسل | Massouba Honey | desserts/banana-dessert.webp | representative
+desserts       uae-dessert-konafa                 كنافة (جبنة / نوتيلا / قشطة) | Konafa Cheese / Nutella / Qashta | desserts/kunafa.webp | representative

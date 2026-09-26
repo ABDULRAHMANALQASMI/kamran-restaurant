@@ -1,0 +1,51 @@
+Attached Element Context from Integrated Browser
+
+Element: span
+
+URL: file:///c%3A/Users/Admin/Downloads/kamran-restaurant/index.html
+
+HTML Path: main#main-content > section#home.hero.hero-home > div.container.hero-grid > div.hero-copy > h1.hero-brand-title > span
+
+Outer HTML:
+```html
+<span>مطعم كمران للمندي</span>
+```
+
+Dimensions:
+- top: 269px
+- left: 20px
+- width: 529px
+- height: 46px
+
+CSS:
+```css
+* { box-sizing: border-box; }
+
+/* Inherited */
+h1, h2, h3, .brand-name-en, .brand-name-en b, .footer-brand b { font-family: "Cormorant Garamond", Georgia, serif }
+.hero-brand-title { color: #fffdf8; font-family: "Noto Sans Arabic", Tahoma, sans-serif; font-size: 3.3rem; font-weight: 700; line-height: 1.3 }
+.hero-brand-title { font-size: 2.65rem }
+.hero-brand-title { font-size: 2.35rem }
+.hero-copy h1, .section-heading h2, .country-hero h1, .country-section h2 { color: var(--color-text) }
+.hero-copy h1 { font-size: clamp(2.2rem, 4vw, 4rem) }
+.hero, .country-hero { color: #fffdf8 }
+body { font-family: "Segoe UI", Tahoma, Arial, sans-serif; color: var(--color-text); line-height: 1.6 }
+body { font-family: "Noto Sans Arabic", Tahoma, sans-serif; color: var(--color-text); line-height: 1.75 }
+html[lang="ar"] body, body[dir="rtl"] { direction: rtl; text-align: right }
+
+/* Resolved values */
+box-sizing: border-box;
+color: rgb(196, 214, 226);
+direction: rtl;
+display: block;
+font-family: "Noto Sans Arabic", Tahoma, sans-serif;
+font-size: 35.2px;
+font-weight: 700;
+height: 45.75px;
+line-height: 45.76px;
+text-align: right;
+width: 529px;
+
+/* CSS variables */
+--color-text: #20262a;
+```

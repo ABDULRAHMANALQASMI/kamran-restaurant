@@ -1,0 +1,26 @@
+oman: 114 items
+uae: 72 items
+
+items: 186 | distinct images: 49 | missing full: 0 | missing thumbs: 0
+
+distinct images per category (diversity check):
+  oman/chicken: 7
+  oman/cold_beverages: 9
+  oman/desserts: 3
+  oman/feasts: 2
+  oman/hot_drinks: 2
+  oman/meat: 5
+  oman/qalabat: 3
+  oman/ramadan: 3
+  oman/rice_bread: 6
+  oman/salads: 5
+  oman/seafood: 9
+  uae/chicken: 5
+  uae/desserts: 3
+  uae/drinks: 11
+  uae/extras: 4
+  uae/feasts: 3
+  uae/fish: 6
+  uae/meat: 4
+  uae/qalabat: 3
+  uae/salads: 5

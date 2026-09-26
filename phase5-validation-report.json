@@ -1,0 +1,159 @@
+{
+  "generatedAt": "2026-09-26T09:25:13.666Z",
+  "source": "Phase 5 authoritative menu supplied by user",
+  "oman": {
+    "expectedCategories": 11,
+    "categories": 11,
+    "expectedItems": 114,
+    "totalItems": 114,
+    "categoryCounts": {
+      "chicken": 14,
+      "meat": 10,
+      "seafood": 10,
+      "salads": 9,
+      "rice_bread": 15,
+      "qalabat": 16,
+      "feasts": 5,
+      "ramadan": 7,
+      "desserts": 5,
+      "cold_beverages": 19,
+      "hot_drinks": 4
+    },
+    "itemCountMatchesSource": true,
+    "itemsWithImages": 114,
+    "itemsWithoutImages": 0,
+    "itemsWithExpectedCurrency": 114,
+    "itemsWithOMRPrices": 114,
+    "itemsWithAEDPrices": 0,
+    "invalidCurrencyCount": 0,
+    "currency": "OMR",
+    "missingArabicNames": 0,
+    "missingEnglishNames": 0,
+    "missingPrices": 0,
+    "malformedPriceOptions": 0,
+    "duplicateIds": 0,
+    "wrongCountryRecords": 0,
+    "wrongCurrencyRecords": 0,
+    "brokenImagePaths": [],
+    "itemsRequiringReview": 0,
+    "imageTypes": {
+      "representative": 114
+    }
+  },
+  "uae": {
+    "expectedCategories": 9,
+    "categories": 9,
+    "expectedItems": 72,
+    "totalItems": 72,
+    "categoryCounts": {
+      "drinks": 14,
+      "salads": 7,
+      "fish": 8,
+      "chicken": 5,
+      "meat": 5,
+      "qalabat": 17,
+      "extras": 6,
+      "feasts": 4,
+      "desserts": 6
+    },
+    "itemCountMatchesSource": true,
+    "itemsWithImages": 72,
+    "itemsWithoutImages": 0,
+    "itemsWithExpectedCurrency": 72,
+    "itemsWithOMRPrices": 0,
+    "itemsWithAEDPrices": 72,
+    "invalidCurrencyCount": 0,
+    "currency": "AED",
+    "missingArabicNames": 0,
+    "missingEnglishNames": 0,
+    "missingPrices": 0,
+    "malformedPriceOptions": 0,
+    "duplicateIds": 0,
+    "wrongCountryRecords": 0,
+    "wrongCurrencyRecords": 0,
+    "brokenImagePaths": [],
+    "itemsRequiringReview": 0,
+    "imageTypes": {
+      "representative": 72
+    }
+  },
+  "totals": {
+    "menuItems": 186,
+    "menuImages": 186,
+    "generatedOrIllustrativeMenuImages": 0,
+    "representativeMenuImages": 186,
+    "realRestaurantMenuImages": 0,
+    "missingImages": 0,
+    "brokenImagePaths": 0,
+    "brokenPageImages": [],
+    "brokenPageResources": [],
+    "duplicateDomIds": [],
+    "brokenInternalLinks": 0,
+    "brokenInternalLinkDetails": [],
+    "consoleErrors": 0,
+    "browserAudit": {
+      "tool": "Integrated browser Playwright",
+      "testedAt": "2026-09-26",
+      "routes": [
+        "index.html",
+        "oman.html",
+        "uae.html"
+      ],
+      "viewportWidths": [
+        320,
+        375,
+        390,
+        414,
+        768,
+        1024,
+        1280,
+        1440,
+        1920
+      ],
+      "viewportChecks": 30,
+      "horizontalOverflowCases": 0,
+      "consoleErrors": 0,
+      "failedRequests": 0,
+      "brokenPageImages": 0,
+      "menuItemCounts": {
+        "oman": 114,
+        "uae": 72
+      },
+      "englishMode": {
+        "destinationCardTextTranslated": true,
+        "rtlLtrDirectionSwitch": true,
+        "omanMultiPrice": "1.000 OMR / 1.200 OMR",
+        "uaeFeastPrice": "1,600 AED"
+      },
+      "interactions": {
+        "arabicMenuSearchResults": 2,
+        "categoryFilter": true,
+        "modalOpensByKeyboard": true,
+        "modalReceivesFocus": true,
+        "escapeClosesModal": true,
+        "focusReturnsToTrigger": true,
+        "mobileNavigationOpensAndCloses": true
+      },
+      "menuPhotoCoverage": {
+        "availableImages": 186,
+        "missingImages": 0,
+        "imageType": "representative local food photography; not restaurant photos"
+      }
+    }
+  },
+  "countrySeparation": {
+    "omanOnlyOMR": true,
+    "uaeOnlyAED": true
+  },
+  "contacts": {
+    "omanInstagram": true,
+    "uaeInstagram": true,
+    "omanPhones": true,
+    "uaePhones": true
+  },
+  "delivery": {
+    "omanComingSoon": true,
+    "uaeComingSoon": true,
+    "officialLinksInvented": false
+  }
+}

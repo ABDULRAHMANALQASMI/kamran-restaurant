@@ -1,0 +1,166 @@
+﻿      if (selectedItem) {
+        openMenuModal(selectedItem);
+      }
+    });
+  });
+};
+
+const renderFeatured = (country) => {
+  const container = document.getElementById('country-featured-list');
+  if (!container) {
+    return;
+  }
+
+  const currency = country === 'oman' ? 'OMR' : 'AED';
+  const items = getCountryMenuData(country).filter((item) => item.country === country && item.currency === currency);
+  const priorityCategories = ['chicken', 'meat', 'fish', 'seafood', 'family_meals', 'special-set-meals'];
+  const chosen = [];
+
+  priorityCategories.forEach((category) => {
+    const item = items.find((candidate) => candidate.category === category && !chosen.includes(candidate));
+    if (item && chosen.length < 3) {
+      chosen.push(item);
+    }
+  });
+  items.forEach((item) => {
+    if (chosen.length < 3 && !chosen.includes(item)) {
+      chosen.push(item);
+    }
+  });
+
+  container.innerHTML = chosen.map((item) => {
+    const language = getLanguage();
+    const name = safeText(language === 'ar' ? item.name_ar : item.name_en, '')
+      || safeText(language === 'ar' ? item.name_en : item.name_ar, interfaceText[language].sourceReview);
+    const price = isPriceUnderReview(item)
+      ? interfaceText[language].priceReview
+      : formatItemPrice(item, language);
+    return `
+      <article class="featured-item">
+        <span class="featured-category">${escapeHtml(getCategoryLabel(item.category, language))}</span>
+        <h3>${escapeHtml(name)}</h3>
+        <span class="price-tag ${isPriceUnderReview(item) ? 'price-review' : ''}">${escapeHtml(price)}</span>
+      </article>
+    `;
+  }).join('');
+};
+
+const renderBranches = (country) => {
+  const container = document.getElementById('country-branches-list');
+  if (!container) {
+    return;
+  }
+
+  const items = getCountryBranchData(country);
+  if (!items.length) {
+    const language = getLanguage();
+    const countryInfo = restaurantsByCountry[country];
+    const location = country === 'oman'
+      ? (language === 'ar' ? 'ØµØ­Ù…' : 'Saham')
+      : (language === 'ar' ? 'Ø£Ø¨ÙˆØ¸Ø¨ÙŠ' : 'Abu Dhabi');
+    const region = country === 'oman'
+      ? (language === 'ar' ? 'Ø´Ù…Ø§Ù„ Ø§Ù„Ø¨Ø§Ø·Ù†Ø©' : 'North Al Batinah Governorate')
+      : (language === 'ar' ? 'Ø§Ù„Ø¥Ù…Ø§Ø±Ø§Øª Ø§Ù„Ø¹Ø±Ø¨ÙŠØ© Ø§Ù„Ù…ØªØ­Ø¯Ø©' : 'United Arab Emirates');
+    const pending = language === 'ar' ? 'ØªÙØ§ØµÙŠÙ„ Ø§Ù„Ø¹Ù†ÙˆØ§Ù† ØºÙŠØ± Ù…ØªØ§Ø­Ø©.' : 'Street address and branch contact details are not available.';
+    container.innerHTML = `
+      <article class="branch-card branch-card-featured">
+        <span class="country-flag">${country === 'oman' ? 'ðŸ‡´ðŸ‡²' : 'ðŸ‡¦ðŸ‡ª'}</span>
+        <div><h3>${escapeHtml(location)}</h3><p>${escapeHtml(region || countryInfo?.region || '')}</p></div>
+        <p class="branch-note">${pending}</p>
+      </article>
+    `;
+    return;
+  }
+
+  container.innerHTML = items
+    .map((branch) => {
+      const language = getLanguage();
+      const phones = Array.isArray(branch.phones) ? branch.phones : [];
+      return `
+        <article class="branch-card branch-card-featured">
+          <span class="country-flag">${country === 'oman' ? 'ðŸ‡´ðŸ‡²' : 'ðŸ‡¦ðŸ‡ª'}</span>
+          <h3>${escapeHtml(safeText(language === 'ar' ? branch.name_ar : branch.name_en, ''))}</h3>
+          <p>${escapeHtml(safeText(language === 'ar' ? branch.city_ar : branch.city, ''))}</p>
+          <p>${escapeHtml(safeText(language === 'ar' ? branch.region_ar : branch.region, ''))}</p>
+          <div class="branch-phone-list" aria-label="${language === 'ar' ? 'Ø£Ø±Ù‚Ø§Ù… Ø§Ù„Ù‡Ø§ØªÙ' : 'Phone numbers'}">
+            ${phones.map((phone) => `<a class="meta-pill" href="tel:${escapeHtml(phone.href)}">${escapeHtml(phone.number)}</a>`).join('')}
+          </div>
+        </article>
+      `;
+    })
+    .join('');
+};
+
+const renderGallery = (country) => {
+  const container = document.getElementById('country-gallery-grid');
+  if (!container) {
+    return;
+  }
+
+  const language = getLanguage();
+  const galleryData = window.galleryPlaceholders?.[country]?.images || [];
+  container.innerHTML = galleryData.map((image) => {
+    const caption = language === 'ar' ? image.caption_ar : image.caption_en;
+    const tileClass = image.imageType === 'supplied-brand-asset' ? 'gallery-logo' : 'gallery-photo';
+    return `
+      <figure class="gallery-tile ${tileClass}" data-image-type="${escapeHtml(image.imageType)}">
+        <img src="${escapeHtml(image.src)}" alt="${escapeHtml(caption)}" loading="lazy" decoding="async" />
+        <figcaption>${escapeHtml(caption)}</figcaption>
+      </figure>
+    `;
+  }).join('');
+};
+
+const renderDelivery = (country) => {
+  const container = document.getElementById('country-delivery-list');
+  if (!container) {
+    return;
+  }
+
+  const data = window.deliveryLinksData?.[country] || {
+    status: 'coming-soon',
+    label_ar: 'Ù‚Ø±ÙŠØ¨Ù‹Ø§',
+    label_en: 'Coming Soon'
+  };
+  const language = getLanguage();
+  const status = language === 'ar' ? data.label_ar : data.label_en;
+  const heading = language === 'ar' ? 'Ø·Ù„Ø¨Ø§Øª Ø§Ù„ØªÙˆØµÙŠÙ„' : 'Delivery';
+  const description = language === 'ar' ? 'Ø³ÙŠØªÙ… Ø§Ù„Ø¥Ø¹Ù„Ø§Ù† Ø¹Ù† Ø±ÙˆØ§Ø¨Ø· Ø§Ù„ØªÙˆØµÙŠÙ„ Ø§Ù„Ø±Ø³Ù…ÙŠØ© Ù„Ø§Ø­Ù‚Ù‹Ø§.' : 'Official delivery links will be shared when confirmed.';
+  const cards = [
+    {
+      platform: heading,
+      status: status || 'Coming Soon',
+      description
+    }
+  ];
+
+  container.innerHTML = cards
+    .map(
+      (card) => `
+        <article class="delivery-card">
+          <h3>${card.platform}</h3>
+          <p>${card.status}</p>
+          <p>${card.description}</p>
+          <div class="meta-row">
+            <span class="meta-pill">${card.status}</span>
+          </div>
+        </article>
+      `
+    )
+    .join('');
+};
+
+const openMenuModal = (item) => {
+  const modalBackdrop = document.getElementById('menu-item-modal-backdrop');
+  const modalContent = document.getElementById('menu-item-modal-content');
+  if (!modalBackdrop || !modalContent) {
+    return;
+  }
+
+  lastMenuTrigger = document.activeElement;
+  const language = getLanguage();
+  const labels = interfaceText[language];
+  const image = typeof item.image === 'string' && item.image ? item.image : '';
+  const arabicName = safeText(item.name_ar, '');
+  const englishName = safeText(item.name_en, '');
+  const name = language === 'ar' ? arabicName || englishName : englishName || arabicName;

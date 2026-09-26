@@ -1,0 +1,104 @@
+/*
+  Responsive rules for mobile-first layout
+  Future content sections can be extended here.
+*/
+
+:root {
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: min(var(--container-width), calc(100% - 2.5rem));
+  }
+}
+
+@media (max-width: 767px) {
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 42px 42px;
+    grid-template-areas:
+      "brand menu language"
+      "navigation navigation navigation";
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.7rem 0;
+  }
+
+  .main-nav {
+    grid-area: navigation;
+    order: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .brand {
+    grid-area: brand;
+    width: 100%;
+    min-width: 0;
+    gap: 0.5rem;
+  }
+
+  .brand img {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+  }
+
+  .brand-text {
+    min-width: 0;
+  }
+
+  .mobile-menu-toggle,
+  .header-inner > .language-switcher {
+    min-width: 0;
+    width: 42px;
+    height: 42px;
+    justify-self: center;
+    padding: 0;
+    border-radius: 4px;
+  }
+
+  .mobile-menu-toggle {
+    grid-area: menu;
+    display: grid;
+    place-items: center;
+  }
+
+  .header-inner > .language-switcher {
+    grid-area: language;
+    display: grid;
+    place-items: center;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .hero,
+  .country-hero {
+    padding-top: 2.5rem;
+  }
+
+  .country-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  }
+}

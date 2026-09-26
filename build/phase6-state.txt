@@ -1,0 +1,114 @@
+
+===== image build logs =====
+-- build/image-fetch-build.log: MISSING
+-- build/image-build.log: MISSING
+-- build/hero-build.log: MISSING
+
+===== asset inventory =====
+assets/menu/representative: 0 files, 0 KB
+assets/menu/thumbs: 0 files, 0 KB
+assets/hero: 5 files, 1118 KB
+    mandi-chicken-rice-1600.webp (80.9 KB)
+    mandi-chicken-rice-640.webp (27.4 KB)
+    mandi-chicken-rice-900.webp (42.8 KB)
+    mandi-chicken-rice.webp (965.1 KB)
+    mandi-illustration.svg (2.1 KB)
+assets/hero/oman: 0 files, 0 KB
+assets/hero/uae: 0 files, 0 KB
+assets/logo: 4 files, 122 KB
+    apple-touch-icon.png (54.9 KB)
+    favicon-192.png (61.0 KB)
+    favicon-48.png (5.2 KB)
+    placeholder-logo.svg (0.9 KB)
+
+===== index.html markers =====
+  'apple-touch-icon': 0
+  'imagesrcset': 0
+  'hero-oman': 0
+  'hero-uae': 0
+  'destination': 0
+  'js/menu.js': 0
+  'preload': 0
+  'menu-image': 0
+  'loading="lazy"': 2
+  'sizes=': 0
+  head (first 45 lines):
+    <!DOCTYPE html>
+    <html lang="ar" dir="rtl">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title data-title-ar="Kamran Mandi Restaurant | مطعم كمران للمندي" data-title-en="Kamran Mandi Restaurant">Kamran Mandi Restaurant | مطعم كمران للمندي</title>
+        <meta
+          name="description"
+          content="Country-specific restaurant website for Kamran Mandi Restaurant with Oman and UAE sections."
+        />
+        <meta property="og:title" content="Kamran Mandi Restaurant" />
+        <meta property="og:description" content="Kamran Mandi Restaurant in Oman and the United Arab Emirates." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="%D8%B4%D8%B9%D8%A7%D8%B1%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D9%85%D8%B1%D8%A7%D9%86.png" />
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Kamran Mandi Restaurant",
+            "logo": "%D8%B4%D8%B9%D8%A7%D8%B1%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D9%85%D8%B1%D8%A7%D9%86.png",
+            "sameAs": [
+              "https://www.instagram.com/kamran.restaurant/",
+              "https://www.instagram.com/kamran_restaurant.ae/"
+            ]
+          }
+        </script>
+        <meta name="theme-color" content="#102c45" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/rtl.css" />
+      </head>
+      <body class="theme-light home-page">
+        <a class="skip-link" href="#main-content" data-i18n data-ar="تخطَّ إلى المحتوى" data-en="Skip to content">تخطَّ إلى المحتوى</a>
+        <header class="site-header">
+          <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="Kamran Mandi Restaurant home">
+              <img src="%D8%B4%D8%B9%D8%A7%D8%B1%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D9%85%D8%B1%D8%A7%D9%86.png" alt="شعار مطعم كمران للمندي" data-alt-ar="شعار مطعم كمران للمندي" data-alt-en="Kamran Mandi Restaurant logo" />
+              <div class="brand-text">
+                <span class="brand-name-ar">مطعم كمران للمندي</span>
+                <span class="brand-name-en">KAMRAN MANDI RESTAURANT</span>
+              </div>
+            </a>
+
+===== js/app.js markers =====
+  length: 22171 chars, 578 lines
+  'representative': 0
+  'menu/thumbs': 0
+  'thumb': 0
+  'hero-oman': 0
+  'destinationCard': 0
+  'menuImage': 0
+  'imageSource': 0
+
+===== data files: image paths in use =====
+  data/oman-menu-phase5.js: 46 distinct override images
+    thumbs: 0
+    representative: 45
+    other: ['assets/hero/mandi-chicken-rice.webp']
+  data/uae-menu-phase5.js: 35 distinct override images
+    thumbs: 0
+    representative: 34
+    other: ['assets/hero/mandi-chicken-rice.webp']
+
+===== menu item counts =====
+  data/oman-menu-phase5.js: rows=114
+  data/uae-menu-phase5.js: rows=72
+
+===== manifest / map artifacts =====
+  scripts/image-manifest.json: yes
+  scripts/image-map.txt: yes
+  scripts/phase6-mapping.json: no
+  scripts/apply-phase6-images.js: no
+  scripts/hero-build.log: no
+  scripts/build_hero_assets.py: no
+  scripts/list-override-keys.js: yes
+  build/override-keys.txt: no

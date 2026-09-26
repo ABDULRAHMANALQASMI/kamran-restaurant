@@ -1,0 +1,53 @@
+total referenced assets: 52 | missing: 51
+
+%D8%B4%D8%B9%D8%A7%D8%B1%20%D9%85%D8%B7%D8%B9%D9%85%20%D9%83%D9%85%D8%B1%D8%A7%D9%86.png  <-  index.html, oman.html, uae.html
+data/assets/hero/mandi-chicken-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/bread/malawah-flatbread.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/bread/traditional-pan-flatbread.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/chicken/charcoal-grilled-chicken.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/chicken/chicken-mandi-tray.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/chicken/chicken-spiced-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/chicken/chicken-stew.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/chicken/chicken-zurbian-style-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/chicken/grilled-chicken-saffron-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/desserts/banana-dessert.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/desserts/date-filled-bread-dessert.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/desserts/kunafa.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/arabic-coffee-dallah.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/avocado-juice.webp  <-  data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/ayran.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/fresh-mango-juice.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/drinks/fresh-orange-juice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/hibiscus-juice.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/drinks/karak-tea.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/lemon-mint-drink.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/mineral-water.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/nonalcoholic-mojito.webp  <-  data/uae-menu-phase5.js
+data/assets/menu/representative/drinks/pomegranate-juice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/meat/diced-meat-skillet.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/meat/family-lamb-tray.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/meat/lamb-mandi.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/meat/lamb-pilaf.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/meat/lamb-shank-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/qalabat/fava-beans-foul.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/qalabat/middle-eastern-liver.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/qalabat/shakshuka.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/rice/bukhari-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/rice/mandi-rice.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/rice/peshawari-rice.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/rice/zurbian-rice.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/salads/arabic-salad-vegetables.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/salads/cucumber-yogurt.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/salads/fattoush.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/salads/greek-salad.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/salads/tabbouleh.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/fish-saydia-rice.webp  <-  data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/fresh-tuna.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/seafood/grilled-fish-platter.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/grilled-fish.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/grilled-salmon.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/grilled-shrimp-rice.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/mixed-seafood-platter.webp  <-  data/oman-menu-phase5.js
+data/assets/menu/representative/seafood/shrimp-tomato-sauce.webp  <-  data/oman-menu-phase5.js, data/uae-menu-phase5.js
+data/assets/menu/representative/seafood/squid-stew-rice.webp  <-  data/oman-menu-phase5.js
+js/assets/hero/mandi-chicken-rice.webp  <-  js/gallery.js

@@ -1,0 +1,490 @@
+{
+  "normalized": [
+    {
+      "target": "drinks/cola-glass.webp",
+      "photoId": 20045266,
+      "alt": "Cola served over ice in a clear glass",
+      "size": [
+        832,
+        555
+      ],
+      "bytes": 17484
+    },
+    {
+      "target": "drinks/cola-zero-glass.webp",
+      "photoId": 16404143,
+      "alt": "Diet cola poured over ice in a clear glass",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 32492
+    },
+    {
+      "target": "drinks/lemon-lime-soda.webp",
+      "photoId": 12973255,
+      "alt": "Clear lemon-lime soda with ice and a lemon slice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 23402
+    },
+    {
+      "target": "drinks/orange-soda.webp",
+      "photoId": 5659362,
+      "alt": "Orange soft drink poured into a glass of ice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 22956
+    },
+    {
+      "target": "drinks/green-apple-soda.webp",
+      "photoId": 33635827,
+      "alt": "Green apple soft drink served over ice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 11852
+    },
+    {
+      "target": "drinks/bottled-soft-drinks.webp",
+      "photoId": 4113671,
+      "alt": "Assorted bottled soft drinks",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 57712
+    },
+    {
+      "target": "drinks/mint-iced-drink.webp",
+      "photoId": 37515893,
+      "alt": "Iced mint drink garnished with fresh mint",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 20406
+    },
+    {
+      "target": "drinks/turkish-coffee.webp",
+      "photoId": 16192197,
+      "alt": "Turkish coffee served in a small cup",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 114492
+    },
+    {
+      "target": "drinks/green-tea-glass.webp",
+      "photoId": 30307112,
+      "alt": "Green tea served in a clear glass",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 19658
+    },
+    {
+      "target": "drinks/dallah-tea-glass.webp",
+      "photoId": 6769483,
+      "alt": "Tea poured from a pot into a small drinking glass",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 74554
+    },
+    {
+      "target": "drinks/juice-bottles.webp",
+      "photoId": 34460655,
+      "alt": "Assorted bottled juices on display",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 81180
+    },
+    {
+      "target": "drinks/strawberry-mojito.webp",
+      "photoId": 30412118,
+      "alt": "Strawberry mojito with lime and mint over ice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 41588
+    },
+    {
+      "target": "drinks/passion-fruit-mojito.webp",
+      "photoId": 6895933,
+      "alt": "Passion fruit cooler with mint over ice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 37436
+    },
+    {
+      "target": "drinks/lemonade-glass.webp",
+      "photoId": 21574964,
+      "alt": "Fresh homemade lemonade in a glass",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 9300
+    },
+    {
+      "target": "drinks/lemon-juice-poured.webp",
+      "photoId": 33121506,
+      "alt": "Fresh lemon juice poured into a glass",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 15048
+    },
+    {
+      "target": "qalabat/french-fries.webp",
+      "photoId": 18467142,
+      "alt": "French fries served in a bowl",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 34768
+    },
+    {
+      "target": "qalabat/yemeni-breakfast-saltah.webp",
+      "photoId": 31374833,
+      "alt": "Traditional Yemeni breakfast spread with saltah",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 36878
+    },
+    {
+      "target": "qalabat/meat-stew-bowl.webp",
+      "photoId": 18852567,
+      "alt": "Meat stew with bones in a spiced tomato sauce",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 27782
+    },
+    {
+      "target": "qalabat/red-beans-bowl.webp",
+      "photoId": 14426302,
+      "alt": "Slow cooked red beans served in a bowl",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 56714
+    },
+    {
+      "target": "qalabat/green-beans-dish.webp",
+      "photoId": 27588101,
+      "alt": "Green beans cooked in a green herb sauce",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 23790
+    },
+    {
+      "target": "qalabat/green-beans-tuna.webp",
+      "photoId": 6544260,
+      "alt": "Green beans with tuna and egg",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 46272
+    },
+    {
+      "target": "qalabat/tuna-egg-dish.webp",
+      "photoId": 6544223,
+      "alt": "Tuna with beans and hard boiled eggs",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 41838
+    },
+    {
+      "target": "qalabat/fried-eggs-pan.webp",
+      "photoId": 7463312,
+      "alt": "Fried eggs cooked with tomato in a skillet",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 32214
+    },
+    {
+      "target": "qalabat/vegetable-stew.webp",
+      "photoId": 16699418,
+      "alt": "Yemeni vegetable stew (salona) served in a dish",
+      "size": [
+        900,
+        599
+      ],
+      "bytes": 77356
+    },
+    {
+      "target": "qalabat/green-dip-helba.webp",
+      "photoId": 9329618,
+      "alt": "Green fenugreek dip (helba) served with tomato",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 30420
+    },
+    {
+      "target": "desserts/samosa.webp",
+      "photoId": 21078315,
+      "alt": "Crispy samosas served with a dipping sauce",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 117634
+    },
+    {
+      "target": "desserts/bread-pudding.webp",
+      "photoId": 8745313,
+      "alt": "Bread pudding served with sweet cream (qasabiya)",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 7362
+    },
+    {
+      "target": "desserts/crepe-stack.webp",
+      "photoId": 35487016,
+      "alt": "Stack of thin crepes (arika)",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 39580
+    },
+    {
+      "target": "desserts/banana-honey-pancake.webp",
+      "photoId": 7144329,
+      "alt": "Mashed banana pancake drizzled with honey (masooba)",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 2660
+    },
+    {
+      "target": "desserts/dates-tray.webp",
+      "photoId": 29818830,
+      "alt": "Dates served on a rustic tray with Arabic coffee",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 20356
+    },
+    {
+      "target": "desserts/mixed-nuts.webp",
+      "photoId": 5472169,
+      "alt": "Assorted roasted nuts served in a bowl",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 26670
+    },
+    {
+      "target": "meat/grilled-skewers.webp",
+      "photoId": 37058630,
+      "alt": "Marinated meat skewers grilled over charcoal",
+      "size": [
+        832,
+        555
+      ],
+      "bytes": 86100
+    },
+    {
+      "target": "meat/lamb-feast-platter.webp",
+      "photoId": 36984955,
+      "alt": "Whole lamb served over a platter of mandi rice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 111520
+    },
+    {
+      "target": "chicken/tandoor-chicken.webp",
+      "photoId": 29173124,
+      "alt": "Clay oven tandoor chicken garnished with herbs",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 32420
+    },
+    {
+      "target": "seafood/grilled-prawns-plate.webp",
+      "photoId": 39122801,
+      "alt": "Grilled prawns with herbs served on a plate",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 109578
+    },
+    {
+      "target": "seafood/raw-fish-ice.webp",
+      "photoId": 4370906,
+      "alt": "Fresh whole fish displayed on ice",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 35250
+    },
+    {
+      "target": "salads/arugula-salad.webp",
+      "photoId": 30472963,
+      "alt": "Fresh arugula roca salad",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 43740
+    },
+    {
+      "target": "salads/chili-peppers.webp",
+      "photoId": 5765325,
+      "alt": "Fresh red and green chillies (basbas)",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 25904
+    },
+    {
+      "target": "salads/herbs-chili-board.webp",
+      "photoId": 5965990,
+      "alt": "Fresh herbs and chillies on a chopping board",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 42658
+    },
+    {
+      "target": "rice/lentil-soup.webp",
+      "photoId": 10976453,
+      "alt": "Warm lentil soup served in a bowl",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 37556
+    },
+    {
+      "target": "rice/honey-jar.webp",
+      "photoId": 8805077,
+      "alt": "Yemeni honey served in a glass jar with a dipper",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 27892
+    },
+    {
+      "target": "rice/fried-onions.webp",
+      "photoId": 6104432,
+      "alt": "Crisp fried onions served as a side",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 128402
+    },
+    {
+      "target": "rice/plain-yoghurt.webp",
+      "photoId": 4428349,
+      "alt": "Plain yoghurt served in a bowl",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 12580
+    },
+    {
+      "target": "bread/flatbread-basket.webp",
+      "photoId": 12427834,
+      "alt": "Fresh arabic flatbreads served in a basket",
+      "size": [
+        900,
+        600
+      ],
+      "bytes": 42602
+    }
+  ],
+  "thumbs": 92,
+  "warnings": [],
+  "hero": [
+    {
+      "file": "mandi-chicken-rice-1600.webp",
+      "size": [
+        1600,
+        898
+      ],
+      "bytes": 82832
+    },
+    {
+      "file": "mandi-chicken-rice-900.webp",
+      "size": [
+        900,
+        562
+      ],
+      "bytes": 43782
+    },
+    {
+      "file": "mandi-chicken-rice-640.webp",
+      "size": [
+        640,
+        400
+      ],
+      "bytes": 28040
+    }
+  ],
+  "icons": [
+    {
+      "file": "assets/logo/favicon-192.png",
+      "px": 192,
+      "bytes": 62424
+    },
+    {
+      "file": "assets/logo/favicon-48.png",
+      "px": 48,
+      "bytes": 5327
+    },
+    {
+      "file": "assets/logo/apple-touch-icon.png",
+      "px": 180,
+      "bytes": 56212
+    }
+  ],
+  "normalized_bytes": 1938056
+}
